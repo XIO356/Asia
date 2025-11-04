@@ -32,16 +32,15 @@
       align-items: center;
       position: relative;
     }
-
+    
     .overlay {
-      position: absolute;
-      margin-bottom: 60px;
+      position: relative;
       width: 100%;
       background-color: rgba(245, 246, 234, 0.5);
       padding: 20px;
       text-align: center;
     }
-
+    
     .overlay h1 {
       font-size: 5em;
       color: #000;
@@ -50,9 +49,8 @@
     
     .escudo {
       position: absolute;
-      top: 50%;          /* parte desde el centro */
+      bottom: 20px; /* espacio desde la base de la franja */
       right: 40px;
-      transform: translateY(50%); /* baja un poco (ajusta el % según necesites) */
       width: 150px;
       height: auto;
       filter: drop-shadow(0 0 12px rgb(251, 254, 23));
@@ -161,5 +159,6 @@
 
 </body>
 </html>
+
 
 

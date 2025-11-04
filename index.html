@@ -50,13 +50,15 @@
     
     .escudo {
       position: absolute;
-      top: 60%;   /* ajusta según convenga */
+      top: 50%;
+      bottom: 80px; /* 👈 esto lo baja a la altura de la franja */
       right: 40px;
       width: 150px;
       height: auto;
-      transform: translateY(-50%); /* centrado vertical respecto a top */
+      filter: drop-shadow(0 0 12px rgb(251, 254, 23));
+      transition: transform 0.3s ease;
     }
-    
+
     .escudo:hover {
       transform: scale(1.1);
       filter: drop-shadow(0 0 20px rgba(246, 200, 73, 0.747));
@@ -159,17 +161,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
